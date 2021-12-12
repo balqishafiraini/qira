@@ -2854,3 +2854,8 @@ responsive
     padding: 30px;
   }
 }
+
+img.review1 {
+  float: center;
+  margin: 5px;
+}
