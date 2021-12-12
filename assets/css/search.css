@@ -1,0 +1,35 @@
+header .nav form {
+  border-radius: 50px !important;
+  border: 1px solid #fbaccc !important;
+  padding: 0px 10px;
+  /* background-color: black; */
+}
+
+header .nav form .search-bar {
+  border: none;
+  border-radius: 50px !important;
+  outline: black;
+}
+
+header .nav form button {
+  background-color: transparent;
+  border: none;
+}
+
+header .nav form img {
+  background-color: transparent;
+  width: 20px;
+}
+
+header .nav .user-action {
+  margin-left: 20px;
+}
+
+header .nav .user-action img {
+  width: 30px;
+  margin: 0px 10px;
+  cursor: pointer;
+}
+
+header .nav .user-action img:hover {
+}
