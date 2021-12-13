@@ -22,12 +22,12 @@ header .nav form img {
 }
 
 header .nav .user-action {
-  margin-left: 20px;
+  margin-left: 15px;
 }
 
 header .nav .user-action img {
   width: 30px;
-  margin: 0px 10px;
+  margin: 0px 5px;
   cursor: pointer;
 }
 
