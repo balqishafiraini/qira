@@ -2,6 +2,7 @@ header .nav form {
   border-radius: 50px !important;
   border: 1px solid #fbaccc !important;
   padding: 0px 10px;
+  margin-left: 10px;
   /* background-color: black; */
 }
 
@@ -9,6 +10,7 @@ header .nav form .search-bar {
   border: none;
   border-radius: 50px !important;
   outline: black;
+  width: auto;
 }
 
 header .nav form button {
@@ -27,9 +29,102 @@ header .nav .user-action {
 
 header .nav .user-action img {
   width: 30px;
-  margin: 0px 5px;
+  margin: 0px 10px;
   cursor: pointer;
 }
 
 header .nav .user-action img:hover {
+}
+
+@media screen and (max-width: 1440px) {
+  header .nav li {
+    margin: 0px 2px;
+    padding: 0px 8px !important;
+  }
+
+  header .nav a {
+    font-size: 12px !important;
+  }
+
+  header .nav form .search-bar {
+    width: 120px;
+    font-size: 12px;
+  }
+
+  header .nav .user-action {
+    margin-left: 10px;
+  }
+
+  header .nav .user-action img {
+    width: 25px;
+    margin: 0px 5px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  header .nav li {
+    padding: 0px 5px !important;
+  }
+
+  header .nav form .search-bar {
+    width: 100px;
+  }
+
+  header .nav .user-action img {
+    width: 22px;
+    margin: 0px 3px;
+  }
+
+  header .nav .user-action {
+    margin-left: 8px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  header .nav li {
+    margin: 0px 0px;
+    /* padding: 0px 5px !important; */
+  }
+
+  header .nav a {
+    font-size: 10px !important;
+  }
+
+  header .nav .user-action {
+    margin-left: 5px;
+  }
+
+  header .nav form .search-bar {
+    width: 80px;
+    font-size: 10px;
+  }
+
+  header .nav form {
+    margin-left: 2px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header .main-nav a img {
+  }
+
+  header .nav form {
+    margin-left: 8px;
+    display: none !important;
+  }
+
+  header .nav li {
+    padding: 0px 5px !important;
+  }
+
+  header .nav .user-action {
+    margin-left: 0px;
+    justify-content: center;
+    background-color: white;
+    padding: 10px;
+  }
+
+  header .nav .user-action img {
+    margin: 0px 10px;
+  }
 }
